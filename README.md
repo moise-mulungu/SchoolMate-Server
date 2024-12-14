@@ -16,7 +16,7 @@ Schoolmate-Server is the backend API for Schoolmate, a business automation softw
 
 ## Getting Started
 1. Clone the repository:
-`git clone https://github.com/yourusername/schoolmate-server.git`
+`git clone: https://github.com/moise-mulungu/SchoolMate-Server.git`
 
 
 2. Install dependencies:
