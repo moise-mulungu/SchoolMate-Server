@@ -19,6 +19,12 @@ jobs:
           ruby-version: .ruby-version
           bundler-cache: true
 
+      - name: Add platform to Gemfile.lock
+        run: bundle lock --add-platform x86_64-linux
+
+      - name: Install dependencies
+        run: bundle install --jobs 4
+
       - name: Scan for common Rails security vulnerabilities using static analysis
         run: bin/brakeman --no-pager
 
